@@ -49,6 +49,7 @@ clearButton.onclick = function() {
 	for(var i = 0; i < pdd_items.length; i++) {
 		showElement(pdd_items[i]);
 	}
+	input.focus();
 }
 
 input.oninput = function() {
