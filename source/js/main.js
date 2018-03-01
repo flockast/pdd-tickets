@@ -6,7 +6,7 @@ allItems().forEach(item => {
 	result += '<div class="pdd-item">';
 	result += '<div class="pdd-item__inner">';
 	result += '<div class="pdd-item__title">' + item.title + '</div>';
-	result += '<div class="pdd-item__image"><img src="'+ item.image +'"></div>';
+	result += '<div class="pdd-item__image"><img src="assets/img/'+ item.image +'"></div>';
 	result += '<ol class="pdd-item__answers">';
 	
 	item.answers.forEach(answer => {
